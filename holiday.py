@@ -9,6 +9,9 @@ def holiday(day):
 
 date_to_check_holiday=input("enter the date required to check")
 
+day=int(input("enter the day"))
+month=int(input("enter the month"))
+year=int(input("enter the year"))
 today=date(year,month,day)
 day_count=today.weekday()
 print(day_count)
